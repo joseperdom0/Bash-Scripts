@@ -4,7 +4,7 @@ echo "This script will help you find the largest X amount of files in a DIR"
 echo "---------------------------------------------------------------------"
 echo "Introduce the amount of files X you wish to find"
 read x
-echo "Introduce the DIR you want to find them in"
+echo "Introduce the DIR you want to search (.) for current Folder"
 read dir
 echo "Finding $x the largest files in $dir"
 find $dir -type f -exec du -a {} + | sort -n -r | head -n $x
