@@ -2,7 +2,7 @@
 
 # This script will ping all local IP's once and will show the ones active (or responding)
 
-for i in {2..2}
+for i in {1..255}
 do
 	for j in {1..255}
 	do
