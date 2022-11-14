@@ -1,6 +1,6 @@
 #!/bin/bash
 
-times=$(shuf -i 3-7 -n 1)
+times=$(shuf -i 1-55555 -n 1)
 echo $times
 for i in {1..$(times)}
 do
