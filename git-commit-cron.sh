@@ -7,6 +7,7 @@ do
 now=$(date)
 log=$(echo -e "Daily back-up / Time of commit: $now  ")
 echo "$log" >> cron.log
+cd ~/Shell-Scripts
 git add .
 git commit -m "cron commit @ $now"
 git push
