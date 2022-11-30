@@ -11,5 +11,5 @@ do
 	cd ~/$line
 	git add .
 	git commit -m "Automatic Commit, change detected $now"
-	git clone push
+	git push
 done
